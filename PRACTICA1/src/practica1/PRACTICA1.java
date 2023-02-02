@@ -572,6 +572,7 @@ public class PRACTICA1 {
         System.out.println("---------------------------");
         double porcentaje=(dinDESC/sumaSINdescuento)*100 ;
         System.out.println("PORCENTAJE DE DESCUENTO: "+ porcentaje +" %");
+	 suma= sumaSINdescuento-dinDESC;
          System.out.println("---------------------------");
          System.out.println("Total= Q."+suma);
     }
